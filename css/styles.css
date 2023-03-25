@@ -8,6 +8,33 @@
 
 }
 
+p, h1, h2, h3, h4 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+.container {
+   width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -23,6 +50,11 @@ body {
     text-decoration: none; 
 }
 
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .logo-start {
     font-family: Raleway, sans-serif;
@@ -81,6 +113,8 @@ body {
 
 .hero {
     background-color: var(--header-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-name {
@@ -112,6 +146,11 @@ body {
 }
 
 
+.our-staks {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .goal-title {
     font-weight: 500;
     font-size: 20px;
@@ -127,6 +166,12 @@ body {
     letter-spacing: 0.02em;
     
 }
+
+
+.work {
+    padding-bottom: 120px;
+}
+
 .work-title {
 font-weight: 700;
 font-size: 36px;
@@ -146,10 +191,13 @@ color: var(--header-color);
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-item {
  background-color: #FFFFFF;
+
 }
 
 
@@ -181,6 +229,8 @@ color: var(--header-color);
 
 .footer {
     background-color:#2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
@@ -222,6 +272,11 @@ color: var(--header-color);
 
 /* Portfolio page */
 
+.filters {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
 .filter-btn {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -236,6 +291,11 @@ color: var(--header-color);
 .filter-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+}
+
+
+.search-result {
+    padding-bottom: 120px;
 }
 
 .card-name {
@@ -253,3 +313,5 @@ color: var(--header-color);
     letter-spacing: 0.02em;
     color: var(--body-color) ;
     }
+
+    
