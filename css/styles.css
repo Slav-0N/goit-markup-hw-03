@@ -1,0 +1,255 @@
+:root {
+    --cloud-color: #F4F4FD;
+    --color-page: #FFFFFF;
+    --header-color: #2E2F42;
+    --iris-blue: #4d5ae5;
+    --body-color: #434455;
+    --hoverocus: #404bbf;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: var(--color-page);
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none; 
+}
+
+
+.logo-start {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+.header-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-blue);
+}
+
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--hoverocus);
+}
+.adr {
+    font-style: normal;
+}
+
+.header-address { 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-color);
+    
+}
+.header-address:hover,
+.header-address:focus {
+    color: #404BBF;
+}
+
+
+.hero {
+    background-color: var(--header-color);
+}
+
+.hero-name {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+
+.goal-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+        
+}
+
+.goal-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--header-color);
+
+}
+
+.work-title-item {
+    background-color: #FFFFFF;
+}
+
+
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-item {
+ background-color: #FFFFFF;
+}
+
+
+.team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--header-color);
+}
+
+.team-member {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--header-color);
+        letter-spacing: 0.02em;
+       
+}
+
+.team-member-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.footer {
+    background-color:#2E2F42;
+}
+
+.footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-blue);
+}
+
+.footer-logo-start {
+        
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        /* identical to box height, or 117% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase; 
+        color: #f4f4fd;
+}
+
+
+
+/* Portfolio page */
+
+.filter-btn {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-blue);
+    background-color: var(--cloud-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+    color: var(--header-color);
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    color: var(--body-color) ;
+    }
