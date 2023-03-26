@@ -56,14 +56,15 @@ body {
     padding-bottom: 24px;
 }
 
+.header-navigation {
+    display: flex;
+}
+
 .logo-start {
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    /* identical to box height, or 117% */
-    
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -74,11 +75,11 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-blue);
+    margin-right: 76px;
 }
 
 
@@ -94,9 +95,28 @@ body {
 .header-link:focus {
     color: var(--hoverocus);
 }
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
 .adr {
     font-style: normal;
 }
+
+.adr ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 .header-address { 
     font-size: 16px;
