@@ -393,7 +393,7 @@ margin-bottom: 72px;
 
 .cards {
     background: #FFFFFF;
-    /* border: 1px solid #E7E9FC; */
+    border-bottom: 1px solid #E7E9FC; 
 }
 
 .card-name {
