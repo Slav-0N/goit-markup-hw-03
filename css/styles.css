@@ -54,6 +54,7 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
@@ -139,13 +140,20 @@ body {
     padding-bottom: 188px;
 }
 
+.cont-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .hero-name {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
     
 }
 
@@ -291,11 +299,16 @@ margin-bottom: 72px;
     padding-bottom: 100px;
 }
 
+/* .footer-width {
+    width: 264;
+} */
+
 .footer-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        max-width: 264px;
 }
 
 .footer-logo {
@@ -329,6 +342,7 @@ margin-bottom: 72px;
 
 
 
+
 /* Portfolio page */
 
 .filters {
@@ -339,8 +353,7 @@ margin-bottom: 72px;
 .filter-list {
     display: flex;
     justify-content: center;
-    gap: 24px
-    ;
+    gap: 24px;
 }
 
 .filter-btn {
@@ -365,6 +378,22 @@ margin-bottom: 72px;
 
 .search-result {
     padding-bottom: 120px;
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+
+}
+
+.search-result li {
+    width: calc((100% - 2 * 24px) / 3);
+}
+
+
+.cards {
+    background: #FFFFFF;
+    /* border: 1px solid #E7E9FC; */
 }
 
 .card-name {
@@ -373,14 +402,16 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em; 
     color: var(--header-color);
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .card-text {
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
     color: var(--body-color) ;
-    }
+    margin-bottom: 32px;
+}
 
     
