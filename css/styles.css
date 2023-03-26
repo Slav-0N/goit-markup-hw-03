@@ -336,6 +336,13 @@ margin-bottom: 72px;
     padding-bottom: 72px;
 }
 
+.filter-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px
+    ;
+}
+
 .filter-btn {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -345,6 +352,9 @@ margin-bottom: 72px;
     color: var(--iris-blue);
     background-color: var(--cloud-color);
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
