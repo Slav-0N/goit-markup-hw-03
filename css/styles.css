@@ -278,6 +278,10 @@ margin-bottom: 72px;
         margin-bottom: 72px;
 }
 
+
+.photo-title {
+    padding: 32px 0;
+}
 .team-member {
         font-weight: 500;
         font-size: 20px;
@@ -285,7 +289,7 @@ margin-bottom: 72px;
         color: var(--header-color);
         letter-spacing: 0.02em;
         text-align: center;
-        margin-top: 32px;
+        
        
 }
 
@@ -296,7 +300,7 @@ margin-bottom: 72px;
     text-align: center;
     
     margin-top: 8px;
-    margin-bottom: 32px;
+    
 }
 
 .footer {
