@@ -380,6 +380,7 @@ margin-bottom: 72px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
+    
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -409,7 +410,7 @@ margin-bottom: 72px;
 }
 
 .card-title {
-    padding: 32px;
+    padding: 32px 16px;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
