@@ -357,13 +357,15 @@ margin-bottom: 72px;
 
 .filters {
     padding-top: 96px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
 }
 
 .filter-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
+
 }
 
 .filter-btn {
@@ -387,7 +389,7 @@ margin-bottom: 72px;
 
 
 .search-result {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 
     display: flex;
     flex-wrap: wrap;
@@ -403,7 +405,15 @@ margin-bottom: 72px;
 
 .cards {
     background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC; 
+    /* border-bottom: 1px solid #E7E9FC;  */
+}
+
+.card-title {
+    padding: 32px;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-top: 1px solid #E7E9FC;
 }
 
 .card-name {
@@ -412,7 +422,6 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em; 
     color: var(--header-color);
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -421,7 +430,6 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-color) ;
-    margin-bottom: 32px;
 }
 
     
